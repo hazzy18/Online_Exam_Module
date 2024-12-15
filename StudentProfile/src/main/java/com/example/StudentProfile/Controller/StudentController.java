@@ -14,7 +14,6 @@ import java.util.Optional;
 @RequestMapping("/students")
 public class StudentController {
 
-    //hell from master branch
     private final StudentService studentService;
     @Autowired
     public StudentController(StudentService studentService){
